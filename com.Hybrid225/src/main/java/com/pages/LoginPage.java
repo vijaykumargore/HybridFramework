@@ -30,11 +30,6 @@ public class LoginPage extends BaseClass  {
 		password.sendKeys(pass);  
 		loginBtn.click();
 	}
-	public Dashboardpage validLogin(WebDriver driver) {
-		username.sendKeys("kiran@gmail.com");
-		password.sendKeys("123456");
-		loginBtn.click();
-		return new Dashboardpage(driver);
-	}
+	
 
 }
