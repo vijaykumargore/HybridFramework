@@ -2,41 +2,41 @@
 <testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-05T23:16:28 IST" name="Suite" finished-at="2022-12-05T23:16:30 IST" duration-ms="1886">
+  <suite started-at="2022-12-11T01:27:54 IST" name="Default suite" finished-at="2022-12-11T01:27:56 IST" duration-ms="2225">
     <groups>
     </groups>
-    <test started-at="2022-12-05T23:16:28 IST" name="Test" finished-at="2022-12-05T23:16:30 IST" duration-ms="1886">
+    <test started-at="2022-12-11T01:27:54 IST" name="Default test" finished-at="2022-12-11T01:27:56 IST" duration-ms="2225">
       <class name="com.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@73e22a3d]" started-at="2022-12-05T23:16:19 IST" name="setup" finished-at="2022-12-05T23:16:28 IST" duration-ms="8947" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@73e22a3d]" started-at="2022-12-11T01:27:48 IST" name="setup" finished-at="2022-12-11T01:27:54 IST" duration-ms="6281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test01()[pri:0, instance:com.tests.LoginTest@73e22a3d]" started-at="2022-12-05T23:16:28 IST" name="test01" finished-at="2022-12-05T23:16:30 IST" duration-ms="1727" status="PASS">
+        <test-method signature="test01()[pri:0, instance:com.tests.LoginTest@73e22a3d]" started-at="2022-12-11T01:27:54 IST" name="test01" finished-at="2022-12-11T01:27:56 IST" duration-ms="2016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-        <test-method signature="test02()[pri:0, instance:com.tests.LoginTest@73e22a3d]" started-at="2022-12-05T23:16:30 IST" name="test02" finished-at="2022-12-05T23:16:30 IST" duration-ms="59" status="FAIL">
+        <test-method signature="test02()[pri:0, instance:com.tests.LoginTest@73e22a3d]" started-at="2022-12-11T01:27:56 IST" name="test02" finished-at="2022-12-11T01:27:56 IST" duration-ms="91" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
-  (Session info: chrome=108.0.5359.71)
+  (Session info: chrome=108.0.5359.99)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-137ACSA', ip: '192.168.43.95', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.71, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\VIJAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ceaa966d69301fee906d27b78fc5755e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\VIJAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb3a92f1e6b302f2d143aab2e9818855
 *** Element info: {Using=id, value=email}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
-  (Session info: chrome=108.0.5359.71)
+  (Session info: chrome=108.0.5359.99)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-137ACSA', ip: '192.168.43.95', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.71, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\VIJAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ceaa966d69301fee906d27b78fc5755e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\VIJAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb3a92f1e6b302f2d143aab2e9818855
 *** Element info: {Using=id, value=email}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -91,7 +91,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test02 -->
-        <test-method signature="test03()[pri:0, instance:com.tests.LoginTest@73e22a3d]" started-at="2022-12-05T23:16:30 IST" name="test03" finished-at="2022-12-05T23:16:30 IST" duration-ms="3" status="SKIP">
+        <test-method signature="test03()[pri:0, instance:com.tests.LoginTest@73e22a3d]" started-at="2022-12-11T01:27:56 IST" name="test03" finished-at="2022-12-11T01:27:56 IST" duration-ms="5" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[skipping Testcase]]>
@@ -134,6 +134,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- test03 -->
       </class> <!-- com.tests.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
